@@ -111,6 +111,7 @@ main p{
     text-indent: 25px;
     line-height: 2em;
     font-size: 1.1em;
+    font-family: var(--fonte-padrao);
 }
 
 main a{
@@ -122,11 +123,15 @@ main a{
     padding-right: 6px;
     padding-top: 3px;
     padding-bottom: 3px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px black;
 }
 
 main a:hover{
-    color: #0112ff;
-    text-decoration: underline;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #015472;
+    box-shadow: 1px 1px 2px black;
 }
 
 a.externos:after{
@@ -202,11 +207,48 @@ aside > h3{
     font-family: var(--fonte-titulo);
 }
 
+#titulo-aside{
+    color: white;
+    font-size: 1.7em;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    padding-left: 25px;
+
+}
+
+#paragrago-aside{
+    color: white;
+    font-size: 1.2em;
+    font-family: var(--fonte-padrao);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+abbr{
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-decoration: none;
+    line-height: 30px;
+    font-family: var(--fonte-titulo);
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+abbr:hover{
+    color: rgb(255, 255, 255);
+    background-color: #15397c;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.3em;
+    
+}
+
 footer{
     background-color: #000000;
     color: white;
     text-align: center;
     margin-top: 20px;
     padding: 5px;
-    font-size: 0.8em;
+    font-size: 1em;
+    font-family: var(--fonte-titulo);
 }
