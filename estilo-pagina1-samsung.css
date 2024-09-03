@@ -63,6 +63,8 @@ nav{
 nav > a:hover{
     background-color:#02A8E4;
     color: #0112ff;
+    text-shadow: 1px 1px 0px rgb(255, 255, 255);
+    padding: 7px;
 }
 
 nav > a{
@@ -248,7 +250,12 @@ footer{
     color: white;
     text-align: center;
     margin-top: 20px;
-    padding: 5px;
+    padding: 15px;
     font-size: 1em;
     font-family: var(--fonte-titulo);
+}
+
+#githube-footer{
+    border-radius: 50px;
+    margin-bottom: -10px;
 }
