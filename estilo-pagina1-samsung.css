@@ -63,8 +63,9 @@ nav{
 nav > a:hover{
     background-color:#02A8E4;
     color: #0112ff;
-    text-shadow: 1px 1px 0px rgb(255, 255, 255);
+    text-shadow: 1px 1px 0px #0112ff80;
     padding: 7px;
+    letter-spacing: 2px;
 }
 
 nav > a{
@@ -102,9 +103,15 @@ main img.pequena{
     margin: auto;
 }
 
-main strong{
+strong{
     color: #000000;
     font-weight: bold;
+    transition-duration: 0.3s;
+}
+
+strong:hover{
+    color: #07346F;
+    text-shadow:2px 2px 2px #0112ff80;
 }
 
 main p{
@@ -127,6 +134,7 @@ main a{
     padding-bottom: 3px;
     border-radius: 3px;
     box-shadow: 1px 1px 1px black;
+    transition-duration: 0.4s;
 }
 
 main a:hover{
@@ -148,6 +156,16 @@ a.externos:after{
     background-image: linear-gradient(to right,#02A8E4, transparent);
     border-radius: 5px;
     padding: 10px;
+    transition-duration: 0.5s;
+}
+
+.primeiro-titulo-h1:hover{
+    background-color:#0278a3;
+    text-shadow: 1px 1px 0px rgb(199, 199, 199);
+    letter-spacing: 5px;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .segundo-titulo-h2{
@@ -158,6 +176,15 @@ a.externos:after{
     border-radius: 5px;
     padding: 10px;
     text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.863);
+    transition-duration: 0.5s;
+}
+
+.segundo-titulo-h2:hover{
+    background-color:#0278a3;
+    text-shadow: 1px 1px 0px rgb(199, 199, 199);
+    letter-spacing:2px;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
 .terceiro-titulo-h2{
@@ -168,6 +195,15 @@ a.externos:after{
     padding: 10px;
     border-radius: 5px;
     text-shadow: 2px 2px 0px rgb(255, 255, 255);
+    transition-duration: 0.5s;
+}
+
+.terceiro-titulo-h2:hover{
+    background-color:#0278a3;
+    text-shadow: 1px 1px 0px rgb(199, 199, 199);
+    letter-spacing:2px;
+    border-radius: 6px;
+    font-weight: bold;
 }
 
 div.videos{
