@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    margin: 10px;
+    padding: 30px;
+}
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    color: black;
+}
+
+nav{
+    display: none;
+}
+
+header > h1{
+    text-align: center;
+    color: black;
+    font-size: 2.8em;
+}
+
+header > p{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-top: -50px;
+}
+
+main > p > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+aside{
+    display: none;
+}
+
+.videos{ 
+    display: none;
+}
+
+footer > a{
+    display: none;
+}
+
+footer{
+    margin: auto;
+}
