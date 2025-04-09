@@ -1,0 +1,183 @@
+@charset "UTF-8"; @import url(fonts.css);
+
+:root{
+    --cor1:#0777D9;
+    --cor2:#085CA6;
+    --cor3:#084DA6;
+    --cor4:#073673;
+    --cor5:#041E40;
+
+    --fonte-padrao:arial, helvetica, sans-serif;
+    --fonte-destaque:"Bebas Neue", sans-serif;
+    --fonte-titulo:"Arsenal SC", sans-serif;
+    --fonte-paragrafo:"Prompt", sans-serif;
+    --fonte-numero-caption:"Inconsolata", monospace;
+    --fonte-titulo-tabela: "Anton", sans-serif;;
+}
+
+@media print{
+    *{
+        margin: 10px;
+        padding: 30px;
+    }
+    
+    html{
+        font-family: 'Courier New', Courier, monospace;
+        line-height: 1.5;
+        color: black;
+    }
+    
+    nav{
+        display: none;
+    }
+    
+    header > h1{
+        text-align: center;
+        color: black;
+        font-size: 2.8em;
+    }
+    
+    header > p{
+        text-align: center;
+        color: black;
+        font-weight: 500;
+        font-size: 1.5em;
+        margin-top: -50px;
+    }
+    
+    main > p > a{
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+    }
+    
+    aside{
+        display: none;
+    }
+    
+    .videos{ 
+        display: none;
+    }
+    
+    footer > a{
+        display: none;
+    }
+    
+    footer{
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+
+}
+
+@media screen and (min-width:769px) and (max-width:1400px){
+
+    header > h1{
+        font-size: 3.3em;
+        letter-spacing: 5px;
+    }
+
+    header > p{
+        font-size: 1.4em;
+        margin-top: -5px;
+    }
+
+    nav{
+        padding: 20px;
+    }
+
+    nav > a{
+        font-size: 1.4em;
+        margin: 15px;
+    }
+
+    nav > a:hover{
+        background-color:#02A8E4;
+        color: #0112ff;
+        text-shadow: 1px 1px 0px #0112ff80;
+        padding: 7px;
+        letter-spacing: 4px;
+        font-weight: normal;
+    }
+
+    main{
+        padding: 30px;
+    }
+
+    main > img{
+        width: 100%;
+    }
+
+    main > p{
+        font-size: 1.5em;
+        line-height: 2em;
+    }
+
+    main a:hover{
+        color: #ffffff;
+        border-radius: 5px;
+        background-color: #015472;
+        box-shadow: 1px 1px 2px black;
+    }
+
+    strong:hover{
+        color: #07346F;
+        text-shadow:2px 2px 2px #0112ff80;
+    }
+
+    main > .primeiro-titulo-h1{
+        font-size: 2.5em;
+        margin-left: -20px;
+        margin-top: -10px;
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+
+    main > .primeiro-titulo-h1:hover{
+        background-color:#0278a3;
+        text-shadow: 1px 1px 0px rgb(199, 199, 199);
+        letter-spacing: 5px;
+        border-radius: 6px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    main > .segundo-titulo-h2{
+        font-size: 2.3em;
+        margin-left: -20px;
+        padding: 10px;
+    }
+
+    main > .segundo-titulo-h2:hover{
+        background-color:#0278a3;
+        text-shadow: 1px 1px 0px rgb(199, 199, 199);
+        letter-spacing:2px;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+
+    main > .terceiro-titulo-h2{
+        font-size: 2.1em;
+        padding: 10px;
+    }
+
+    main > .terceiro-titulo-h2:hover{
+        background-color:#0278a3;
+        text-shadow: 1px 1px 0px rgb(199, 199, 199);
+        letter-spacing:2px;
+        border-radius: 6px;
+        font-weight: bold;
+    }
+
+    main > .quarto-titulo-h2{
+        font-size: 2.1em;
+        padding: 10px;
+    }
+
+    main > .videos{
+        width: 100%;
+    }
+
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Righteous&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Righteous&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url(fonts.css);
 
 :root{
     --cor1:#0777D9;
@@ -40,17 +40,15 @@ header > h1{
     color: white;
     font-weight: normal;
     font-family:var(--fonte-destaque) ;
-    font-size: 2.8em;
-    margin-bottom: 3px;
+    font-size: 2.1em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.589);
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 header p{
     color: white;
     font-family:var(--fonte-paragrafo);
-    font-size: 1em;
-    max-width: 600px;
+    font-size: 17px;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
@@ -61,19 +59,9 @@ header p{
 nav{
     background-color: var(--cor4);
     text-align: center;
-    padding: 15px;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-
-nav > a:hover{
-    background-color:#02A8E4;
-    color: #0112ff;
-    text-shadow: 1px 1px 0px #0112ff80;
-    padding: 7px;
-    letter-spacing: 4px;
-    font-weight: normal;
-    
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 nav > a{
@@ -84,13 +72,18 @@ nav > a{
     margin-right: 15px;
     transition-duration: 0.5s;
     padding: 5px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-family: var(--fonte-titulo);
+}
+
+nav > a:hover{
+    background-color:#02A8E4;
+    color: #0112ff;
 }
 
 main{
     background-color: white;
-    max-width: 950px;
+    max-width: 1050px;
     margin-bottom: 30px;
     margin: auto;
     padding: 20px;
@@ -116,17 +109,12 @@ strong{
     transition-duration: 0.3s;
 }
 
-strong:hover{
-    color: #07346F;
-    text-shadow:2px 2px 2px #0112ff80;
-}
-
 main p{
     margin: 15px 0px;
     text-align: justify;
     text-indent: 25px;
-    line-height: 2em;
-    font-size: 1.1em;
+    line-height: 1.8em;
+    font-size: 1em;
     font-family: var(--fonte-padrao);
 }
 
@@ -146,9 +134,7 @@ main a{
 
 main a:hover{
     color: #ffffff;
-    border-radius: 5px;
     background-color: #015472;
-    box-shadow: 1px 1px 2px black;
 }
 
 a.externos:after{
@@ -157,60 +143,46 @@ a.externos:after{
 
 .primeiro-titulo-h1{
     font-family: var(--fonte-titulo);
-    font-size: 2.1em;
+    font-size: 1.8em;
     text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.863);
     color: #000000;
     background-image: linear-gradient(to right,#02A8E4, transparent);
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     transition-duration: 0.5s;
-}
-
-.primeiro-titulo-h1:hover{
-    background-color:#0278a3;
-    text-shadow: 1px 1px 0px rgb(199, 199, 199);
-    letter-spacing: 5px;
-    border-radius: 6px;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .segundo-titulo-h2{
     font-family: var(--fonte-titulo);
     background-image: linear-gradient(to right,#02A8E4, transparent);
     color:#000000 ;
-    font-size: 1.8em;
+    font-size: 1.5em;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
     text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.863);
     transition-duration: 0.5s;
-}
-
-.segundo-titulo-h2:hover{
-    background-color:#0278a3;
-    text-shadow: 1px 1px 0px rgb(199, 199, 199);
-    letter-spacing:2px;
-    border-radius: 6px;
-    font-weight: bold;
 }
 
 .terceiro-titulo-h2{
     font-family: var(--fonte-titulo);
     color: #000000;
-    font-size: 1.8em;
+    font-size: 1.3em;
     background-image: linear-gradient(to right, #02A8E4, transparent);
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px;
     text-shadow: 2px 2px 0px rgb(255, 255, 255);
     transition-duration: 0.5s;
 }
 
-.terceiro-titulo-h2:hover{
-    background-color:#0278a3;
-    text-shadow: 1px 1px 0px rgb(199, 199, 199);
-    letter-spacing:2px;
-    border-radius: 6px;
-    font-weight: bold;
+.quarto-titulo-h2{
+    font-family: var(--fonte-titulo);
+    color: #000000;
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, #02A8E4, transparent);
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 0px rgb(255, 255, 255);
+    transition-duration: 0.5s;
 }
 
 div.videos{
