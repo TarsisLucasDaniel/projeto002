@@ -70,6 +70,10 @@
 
 @media screen and (min-width:481px) and (max-width:768px){
 
+    header > h1{
+        
+    }
+
 }
 
 @media screen and (min-width:769px) and (max-width:1400px){
@@ -204,6 +208,10 @@
     #paragrago-aside{
         font-size: 1.4em;
         margin-bottom: 30px;
+    }
+
+    ul > li{
+        line-height: 2.5em;
     }
 
 }
