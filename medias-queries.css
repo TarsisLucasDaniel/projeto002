@@ -127,6 +127,19 @@
         margin-right: -20px;
     }
 
+    footer{
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    footer > a{
+        display: none;
+    }
+
 }
 
 @media screen and (min-width:769px) and (max-width:1400px){
@@ -281,10 +294,14 @@
          margin-right: -30px;
     }
 
-
-
     #titulo-tabela{
         font-size: 2.5em;
+    }
+
+    footer{ 
+        padding: 25px;
+        font-size: 1.5em;
+        letter-spacing: 0px;
     }
 
 }
